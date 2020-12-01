@@ -1,6 +1,6 @@
-const express = requier('express')
-const serveStatic = requier('serve-static')
-const path = requier('path')
+const express = require('express')
+const serveStatic = require('serve-static')
+const path = require('path')
 
 const app = express()
 
