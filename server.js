@@ -1,4 +1,4 @@
-const expres = requier('express')
+const express = requier('express')
 const serveStatic = requier('serve-static')
 const path = requier('path')
 
