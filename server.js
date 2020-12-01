@@ -2,7 +2,7 @@ const expres = requier('express')
 const serveStatic = requier('serve-static')
 const path = requier('path')
 
-conts app = express()
+const app = express()
 
 app.use('/', serverStatic(path.join(__dirname,'/dist')))
 
